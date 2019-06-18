@@ -143,7 +143,7 @@ open class DKChainableAnimationKit {
     }
 
     @discardableResult open func animateWithCompletion(_ duration: CGFloat, _ completion: @escaping () -> Void) -> DKChainableAnimationKit {
-        return animateWithCompletion(TimeInterval(duration), completion)
+        return animateWithCompletion(duration, completion)
     }
 
     internal func degreesToRadians(_ degree: Double) -> Double {
